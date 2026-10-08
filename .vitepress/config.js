@@ -66,7 +66,8 @@ export default defineConfig({
             { text: 'Materials', link: '/api/materials' },
             { text: 'Collection Points', link: '/api/collection-points' },
             { text: 'Payments', link: '/api/payments' },
-            { text: 'Impact', link: '/api/impact' }
+            { text: 'Impact', link: '/api/impact' },
+            { text: 'Webhooks', link: '/api/webhooks' }
           ]
         }
       ],
