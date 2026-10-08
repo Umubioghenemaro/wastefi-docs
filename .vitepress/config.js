@@ -7,6 +7,9 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
     
+    // Enable dark mode with appearance toggle
+    appearance: 'dark',
+    
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/getting-started' },
@@ -153,5 +156,10 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
-  ]
+  ],
+
+  markdown: {
+    lineNumbers: true,
+    codeTransformers: []
+  }
 })
